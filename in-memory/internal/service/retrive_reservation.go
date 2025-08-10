@@ -3,7 +3,7 @@ package service
 import (
 	"time"
 
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/infra"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/infra"
 )
 
 type RetriveReservationResult struct {

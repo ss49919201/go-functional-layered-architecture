@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/infra"
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/service"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/infra"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/service"
 )
 
 type RetriveReservation func(w http.ResponseWriter, r *http.Request)

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/infra"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/infra"
 )
 
 func TestNewRetriveReservation(t *testing.T) {

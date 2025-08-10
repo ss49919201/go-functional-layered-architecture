@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/server"
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/service"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/server"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/service"
 )
 
 func setupTestServer() http.Handler {

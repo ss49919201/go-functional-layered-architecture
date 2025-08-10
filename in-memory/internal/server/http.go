@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/controller"
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/infra"
-	"github.com/ss49919201/go-functional-layerd-architecture/in-memory/service"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/controller"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/infra"
+	"github.com/ss49919201/go-functional-layered-architecture/in-memory/internal/service"
 )
 
 func NewHandler() http.Handler {
